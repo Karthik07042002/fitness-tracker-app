@@ -1,0 +1,28 @@
+name: fitness_tracker_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  pedometer: ^4.2.0
+  geolocator: ^14.1.1
+  permission_handler: 12.0.1
+  percent_indicator: ^4.2.5
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
